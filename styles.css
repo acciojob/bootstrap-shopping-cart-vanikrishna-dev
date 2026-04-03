@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f6f6f6;
+}
+
+.block-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.block-heading h2 {
+    color: #3b99e0;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100px;
+}
+
+.summary {
+    background-color: #f7fbff;
+    padding: 20px;
+    border-top: 3px solid #5ea4f3;
+}
+
+.summary h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary .row {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+.summary button {
+    width: 100%;
+    background-color: #3b99e0;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
